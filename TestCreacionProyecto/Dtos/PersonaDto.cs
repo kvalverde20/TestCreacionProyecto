@@ -7,8 +7,6 @@ namespace TestCreacionProyecto.Dtos
 {
     public class PersonaDto
     {
-        public int nIdPersona { get; set; }
-        public string nTipDoc { get; set; }
         public string cNumDoc { get; set; }
         public string cNombreCompleto { get; set; }
 
