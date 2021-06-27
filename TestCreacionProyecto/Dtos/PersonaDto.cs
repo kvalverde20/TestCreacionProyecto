@@ -8,6 +8,7 @@ namespace TestCreacionProyecto.Dtos
     public class PersonaDto
     {
         public long nIdPersona { get; set; }
-        
+
+        public int nTipDoc{ get; set; }
     }
 }
