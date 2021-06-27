@@ -7,7 +7,7 @@ namespace TestCreacionProyecto.Dtos
 {
     public class PersonaDto
     {
-        public int nPerUid { get; set; }
-
+        public long nIdPersona { get; set; }
+        
     }
 }
