@@ -20,20 +20,7 @@ namespace TestCreacionProyecto.Controllers
 
         public IActionResult Index()
         {
-            //try
-            //{
-            //    int num = 0;
-            //    int x = 9;
-            //    int resp;
-            //    resp = x/num;
-
-            //    _logger.LogWarning("Este es un mensaje de advertencia");
-            //}
-            //catch (Exception ex)
-            //{
-            //    _logger.LogError($"Mensaje de Error:{ex.Message}");
-            //}
-        
+            
             return View();
         }
 
