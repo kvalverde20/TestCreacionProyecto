@@ -15,6 +15,6 @@ namespace TestCreacionProyecto.Dtos
         public string DiaReunion { get; set; }
         public string Horario { get; set; }
         public string TipoGrupo { get; set; }
-        public bool cEstGru { get; set; }
+        public bool lEstado { get; set; }
     }
 }
