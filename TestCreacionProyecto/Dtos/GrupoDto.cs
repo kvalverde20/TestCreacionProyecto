@@ -10,8 +10,8 @@ namespace TestCreacionProyecto.Dtos
         public int IdGrupo { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
-        public DateTime? FechaInicio { get; set; }
-        public DateTime? FechaFin { get; set; }
+        public DateTime? cFecIni { get; set; }
+        public DateTime? cFecFin { get; set; }
         public string DiaReunion { get; set; }
         public string Horario { get; set; }
         public string TipoGrupo { get; set; }
