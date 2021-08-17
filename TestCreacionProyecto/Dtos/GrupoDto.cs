@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace TestCreacionProyecto.Dtos
+{
+    public class GrupoDto
+    {
+        public int IdGrupo { get; set; }
+        public string Nombre { get; set; }
+        public string Descripcion { get; set; }
+        public DateTime? cFecIni { get; set; }
+        public DateTime? cFecFin { get; set; }
+        public string DiaReunion { get; set; }
+        public string Horario { get; set; }
+        public string TipoGrupo { get; set; }
+        public bool lEstado { get; set; }
+    }
+}
