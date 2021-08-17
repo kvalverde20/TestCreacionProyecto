@@ -8,5 +8,7 @@ namespace TestCreacionProyecto.Dtos
     public class MinisterioDto
     {
         public int idMinistro { get; set; }
+        public string Nombre { get; set; }
+        public string Descripcion { get; set; }
     }
 }
